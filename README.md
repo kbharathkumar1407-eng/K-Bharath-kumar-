@@ -1,2 +1,2 @@
 # K-Bharath-kumar-
-My personal website give information about my self it is using html css and javascript 
+My website is designed by the idea of creating a online market to sell sheeps and goats like many items which are selling online
