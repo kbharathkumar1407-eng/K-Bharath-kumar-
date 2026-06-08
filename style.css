@@ -1,24 +1,112 @@
+/* Reset default margins and fonts */
 body {
+  margin: 0;
   font-family: Arial, sans-serif;
-  margin: 20px;
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
 }
 
+/* Header styling */
 header {
-  background: #333;
+  display: flex;
+  align-items: center;
+  background-color: #333;
   color: white;
-  padding: 10px;
+  padding: 15px;
+}
+
+/* Logo styling */
+header img {
+  height: 80px;   /* Adjust logo size */
+  margin-right: 20px;
+}
+
+/* Heading text */
+header h1 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+/* Navigation bar (optional if you add links later) */
+nav {
+  margin-left: auto;
 }
 
 nav a {
-  color: yellow;
-  margin: 0 10px;
+  color: white;
   text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
 }
 
-section {
-  margin: 20px 0;
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
   padding: 10px;
-  background: white;
-  border-radius: 5px;
+  margin-top: 20px;
+}
+/* Navigation bar */
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ffcc00; /* Highlight on hover */
+}
+/* Center all images */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Center and style the sheep image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid #222;   /* Dark border */
+  border-radius: 10px;      /* Slightly rounded corners */
+}
+/* Center main heading */
+header h1 {
+  text-align: center;
+  flex: 1;              /* makes heading take full width in flexbox */
+  font-size: 32px;
+  color: darkgreen;
+}
+
+/* Center sub-heading */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+/* Center paragraph text */
+p {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin: 20px auto;
+  max-width: 700px;   /* keeps text nicely readable */
 }
